@@ -1,0 +1,496 @@
+/*front_header*/
+.front_fv {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/mainvisual.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+  /*menubar*/
+  /*mainvisual*/
+}
+@media only screen and (max-width: 600px) {
+  .front_fv {
+    width: 100vw;
+    height: 400px;
+    margin-bottom: 80px;
+  }
+}
+.front_fv .menubar {
+  display: flex;
+  justify-content: space-between;
+  /*icon*/
+  /*header_nav*/
+}
+.front_fv .menubar .icon h1 {
+  font-size: 22px;
+  margin: 10px;
+  font-family: "Edu TAS Beginner", cursive;
+}
+.front_fv .menubar .icon h1 a {
+  text-decoration: none;
+  color: #333;
+}
+.front_fv .menubar .header_nav ul {
+  display: flex;
+  margin: 20px 0;
+  margin-right: 20px;
+}
+.front_fv .menubar .header_nav ul li {
+  list-style: none;
+}
+.front_fv .menubar .header_nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #3C4028;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.front_fv .menubar .header_nav ul li a:hover {
+  color: #7E893D;
+}
+.front_fv .menubar .header_nav ul li + li {
+  margin-left: 10px;
+}
+.front_fv .mainvisual {
+  width: 100%;
+  height: 90%;
+  position: relative;
+}
+.front_fv .mainvisual .mv_pbox {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+.front_fv .mainvisual .mv_pbox h2 {
+  font-size: 32px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #333;
+}
+.front_fv .mainvisual .mv_pbox p {
+  font-size: 24px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 1em;
+}
+@media only screen and (max-width: 600px) {
+  .front_fv .mainvisual {
+    width: 100%;
+    height: 100%;
+  }
+  .front_fv .mainvisual .mv_pbox {
+    left: 5%;
+  }
+  .front_fv .mainvisual .mv_pbox h2 {
+    font-size: 24px;
+  }
+  .front_fv .mainvisual .mv_pbox p {
+    font-size: 18px;
+  }
+}
+
+/*page_header*/
+.page_fv {
+  width: 100vw;
+  height: 300px;
+  background-color: #3C4028;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  /*menubar*/
+  /*mainvisual*/
+}
+.page_fv .menubar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E4E3E8;
+  /*icon*/
+  /*header_nav*/
+}
+.page_fv .menubar .icon h1 {
+  font-size: 22px;
+  margin: 10px;
+  font-family: "Edu TAS Beginner", cursive;
+}
+.page_fv .menubar .icon h1 a {
+  text-decoration: none;
+  color: #333;
+}
+.page_fv .menubar .header_nav ul {
+  display: flex;
+  margin: 20px 0;
+  margin-right: 20px;
+}
+.page_fv .menubar .header_nav ul li {
+  list-style: none;
+}
+.page_fv .menubar .header_nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #3C4028;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.page_fv .menubar .header_nav ul li a:hover {
+  color: #7E893D;
+}
+.page_fv .menubar .header_nav ul li + li {
+  margin-left: 10px;
+}
+.page_fv .page_mainvisual {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.page_fv .page_mainvisual h2 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .page_fv .page_mainvisual h2 {
+    font-size: 24px;
+  }
+  .page_fv .page_mainvisual p {
+    font-size: 18px;
+  }
+}
+
+/*footer*/
+footer {
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #E4E3E8;
+  padding: 20px 0;
+}
+footer .copyright {
+  text-align: center;
+}
+footer .copyright p {
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+/*about*/
+.about {
+  width: 95vw;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.about h3 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
+  color: #3C4028;
+  font-size: 28px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.about .about_detail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about .about_detail .myimg {
+  width: 30%;
+  max-width: 400px;
+  min-width: 200px;
+  height: auto;
+  align-items: center;
+}
+.about .about_detail .myimg img {
+  width: 100%;
+  align-items: center;
+}
+.about .about_detail .myintroduction {
+  margin-left: 20px;
+}
+.about .about_detail .myintroduction h4 {
+  font-size: 18px;
+  color: #333;
+  font-family: "Kosugi", sans-serif;
+  letter-spacing: 1px;
+}
+.about .about_detail .myintroduction p {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 20px 0;
+  color: #333;
+  letter-spacing: 1px;
+  font-family: "Kosugi", sans-serif;
+}
+@media only screen and (max-width: 530px) {
+  .about .about_detail .myimg {
+    width: 40%;
+    max-width: 200px;
+    min-width: 100px;
+  }
+  .about .about_detail .myimg img {
+    width: 100%;
+  }
+}
+
+/*works_toppage*/
+.works_toppage {
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 150px;
+  /*morebutton*/
+}
+.works_toppage h3 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
+  color: #3C4028;
+  font-size: 28px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.works_toppage .works_container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.works_toppage .works_container .works_detail {
+  position: relative;
+  width: 320px;
+  height: 180px;
+  margin: 30px;
+  background-color: #3C4028;
+}
+.works_toppage .works_container .works_detail .imgbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+.works_toppage .works_container .works_detail .imgbox img {
+  width: 320px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  resize: both;
+}
+.works_toppage .works_container .works_detail .pbox {
+  margin-left: 1em;
+  margin-top: 5px;
+}
+.works_toppage .works_container .works_detail .pbox h4 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.works_toppage .works_container .works_detail:hover .imgbox {
+  transform: translate(2.5rem, 2.5rem);
+}
+@media only screen and (max-width: 500px) {
+  .works_toppage .works_container {
+    position: inherit;
+  }
+  .works_toppage .works_container .works_detail {
+    margin-bottom: 40px;
+  }
+  .works_toppage .works_container .works_detail .imgbox {
+    position: inherit;
+  }
+  .works_toppage .works_container .works_detail:hover .imgbox {
+    transform: none;
+  }
+}
+.works_toppage .morebutton {
+  text-align: center;
+  margin: 40px auto;
+}
+.works_toppage .morebutton a {
+  text-decoration: none;
+  padding: 15px 20px;
+  border: 1px solid #3C4028;
+  font-size: 20px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #3C4028;
+}
+.works_toppage .morebutton a:hover {
+  background-color: #3C4028;
+  color: #fff;
+}
+
+/*works_page*/
+.works_page {
+  margin-top: 150px;
+}
+.works_page h3 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
+  color: #3C4028;
+  font-size: 28px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.works_page .contentsBlock {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+}
+.works_page .contentsBlock h4 {
+  color: #3C4028;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+.works_page .contentsBlock .detail {
+  color: #333;
+  font-family: "Kosugi", sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.works_page .contentsBlock_discription {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 48%;
+  margin: 0 auto;
+  max-width: 500px;
+  padding-left: 10px;
+}
+.works_page .contentsBlock_discription .gotobutton {
+  margin-top: 10px;
+  text-align: left;
+}
+.works_page .contentsBlock_discription .gotobutton a {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: #CDB4D4;
+  margin-bottom: 5px;
+}
+.works_page .contentsBlock_discription .gotobutton a:hover {
+  color: #895590;
+}
+.works_page .contentsBlock_image {
+  flex: 1;
+  width: 48%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+.works_page .contentsBlock_image img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.works_page .contentsBlock_reverse {
+  flex-direction: row-reverse;
+}
+.works_page .contentsBlock_reverse .contentsBlock_image {
+  text-align: right;
+  margin-left: 0;
+}
+.works_page .contentsBlock_reverse .contentsBlock_discription {
+  justify-content: center;
+}
+
+/*skills*/
+.skills {
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.skills h3 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
+  color: #3C4028;
+  font-size: 28px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.skills .skills_container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skills .skills_container .skills_detail {
+  width: 30%;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 0 auto;
+  border: solid 1px #C4CBAC;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.skills .skills_container .skills_detail h4 {
+  margin: 0 auto;
+  width: 60%;
+  aspect-ratio: 1;
+}
+.skills .skills_container .skills_detail h4 img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.skills .skills_container .skills_detail h4 i {
+  font-size: 60px;
+  width: 100%;
+  aspect-ratio: 1;
+}
+.skills .skills_container .skills_detail h5 {
+  color: #333;
+  font-family: "Kosugi", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 10px auto;
+}
+.skills .skills_container .skills_detail p {
+  width: 95%;
+  margin: 0 auto;
+  color: #333;
+  font-family: "Kosugi", sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.skills .skills_other {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.skills .skills_other h5 {
+  color: #333;
+  font-family: "Kosugi", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  margin: 10px auto;
+}
+.skills .skills_other p {
+  color: #333;
+  font-family: "Kosugi", sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */
